@@ -1,0 +1,66 @@
+.TaskTable {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.task_table_list {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 55px 0 35px 225px;
+}
+
+.table-row {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row th,
+.table-row td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table-row th {
+  background-color: #f2f4f7;
+  font-weight: bold;
+}
+
+.table-row td {
+  background-color: #fff;
+}
+
+.edit-button,
+.save-button {
+  background: #000000;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5%;
+  color: #FFFFFF;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button {
+  background: red;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5%;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cancel-button {
+  background: #FFFFFF;
+  color: #c7c7c7;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5%;
+  font-size: 14px;
+}

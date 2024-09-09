@@ -1,0 +1,76 @@
+.create_form_card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.create_form_card div {
+  margin-bottom: 15px;
+}
+
+.create_form_card label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+
+label {
+font-family: "Times New Roman", "Times, serif";
+}
+.create_form_card input[type="text"],
+.create_form_card textarea,
+.create_form_card select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.create_form_card textarea {
+  resize: none;
+  height: 100px;
+}
+
+.create_form_card button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 10px;
+}
+
+.create_form_card button:hover {
+  background-color: #000000;
+  transform: scale(1.05);    
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    background-color: #000000; 
+  }
+  100% {
+    background-color: #000000;
+  }
+}
+
+@media (max-width: 600px) {
+  .create_form_card {
+    padding: 15px;
+    width: 90%;
+  }
+}
